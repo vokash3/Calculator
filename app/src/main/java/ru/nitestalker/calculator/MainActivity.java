@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "Empty answer!", Toast.LENGTH_SHORT).show();
                 return;
             }
-            if (text.equals(String.valueOf(a + b))) { //FIXME Hardcode
+            if (text.equals(String.valueOf(a + b))) {
                 textViewIncorrectAnswer.setVisibility(View.INVISIBLE);
                 textViewCorrectAnswer.setVisibility(View.VISIBLE);
                 a = new Random().nextInt(100);
