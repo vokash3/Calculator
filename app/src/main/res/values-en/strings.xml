@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="answer">Answer</string>
+    <string name="incorrect_answer">Sorry! The answer is incorrect!</string>
+    <string name="answer_hint">Input answer:</string>
+    <string name="correct_answer">You are right!</string>
+</resources>
